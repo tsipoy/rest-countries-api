@@ -1,6 +1,5 @@
 import axios from 'axios';
 import { createContext, useEffect, useState } from 'react';
-
 type ContextProps = {
   isLoading: boolean;
   setLoading: React.Dispatch<React.SetStateAction<boolean>>;
